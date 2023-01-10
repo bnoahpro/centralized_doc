@@ -1,0 +1,26 @@
+site_name: My Docs
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: teal
+    accent: green
+  logo: images/hpe_white_logo.png
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+
+nav :
+  - Home: index.md
+  - Subject 1:
+    - doc1: example.md
+    - doc2: example.md
+  - Subject 2:
+    - doc1: example.md
+    - doc2: example.md
