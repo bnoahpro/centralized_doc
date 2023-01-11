@@ -8,6 +8,9 @@ theme:
     accent: green
   logo: images/hpe_white_logo.png
 
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.9.2/mermaid.min.js
+
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences:
